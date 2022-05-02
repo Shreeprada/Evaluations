@@ -26,7 +26,7 @@ async function main(){
     
 }
 async function searchmovie(){
-    var url="http://www.omdbapi.com/?apikey=de58a940&s=";
+    var url="https://www.omdbapi.com/?apikey=de58a940&s=";
     let query=document.getElementById("search").value;
     try{
         let res=await fetch(url+query);
